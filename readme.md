@@ -42,5 +42,7 @@ The database utilized in this application is **sqlite**.
 
 The database is configured using a virtual environment included in the `.env` file. Inside `.env.example`, you can find an example of variables. 
 
+## Routes
 
+Routes are managed by a fastify plugin in [transactions.ts](src/routes/transactions.ts), which implements function routes.
 

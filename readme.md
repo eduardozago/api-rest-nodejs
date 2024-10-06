@@ -7,6 +7,7 @@
     - [Usage](#usage)
 - [Database](#database)
     - [Configuration](#configuration)
+- [Test](#test)
 
 ## Overview
 
@@ -45,4 +46,6 @@ The database is configured using a virtual environment included in the `.env` fi
 ## Routes
 
 Routes are managed by a fastify plugin in [transactions.ts](src/routes/transactions.ts), which implements function routes.
+
+## Test
 
